@@ -25,8 +25,7 @@ h2 {
   background-color:#2E72BD
 }
 
-.home-main { 
-  background:url(http://media.idownloadblog.com/wp-content/uploads/2014/06/Yosemite.jpg) no-repeat center center;
+.home-main {   background:url(http://media.idownloadblog.com/wp-content/uploads/2014/06/Yosemite.jpg) no-repeat center center;
   background-size:cover;
   height:700px
 }
@@ -185,4 +184,17 @@ form {
 .form-group input {
   padding:20px 10px;
   font-size:20px
+}
+
+.selfintro {
+	color:#fff;
+  font-size: 30px;
+  font-weight:100;
+  margin-bottom:30px;
+  text-align:center;
+  text-shadow:0 2px 3px rgba(0,0,0,0.4)
+}
+
+.support {
+	height: 1200px;
 }
