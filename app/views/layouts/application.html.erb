@@ -1,36 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Stories</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
+<title>Stories</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+<%= csrf_meta_tags %>
 </head>
 <body>
-<<<<<<< HEAD
-      <div class="menu">    
-      <!-- Menu icon -->
-      <div class="icon-close">
-        <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
-      </div>
-      <!-- Menu -->
-      <ul>
-        <li><a href="about">About</a></li>
-        <li><%= link_to "Home", root_path %>
-# =><a href="#">Blog</a></li>
-        <li><a href="/">Home</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div> 
-=======
->>>>>>> db637c28ecffbf03f5fa119d64632a148b14cac0
+<div class="menu">
+<!-- Menu icon -->
+<div class="icon-close">
+<img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
+</div>
+<!-- Menu -->
+<ul>
+<li><a href="about">About</a></li>
+<li><%= link_to "Home", root_path %></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
 <%= yield %>
-    <div class="footer"> 
-      <div class="container"> 
-        <p>A display Project by Chenyun Zhang</p> 
-      </div> 
-    </div> 
+<div class="footer">
+<div class="container">
+<p>A display Project by Chenyun Zhang</p>
+</div>
+</div>
 <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 </body>
 </html>
