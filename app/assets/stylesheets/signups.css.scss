@@ -1,0 +1,29 @@
+// Place all the styles related to the Signups controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html,body {
+    margin:0
+}
+
+body {
+    font-family: 'Montserrat', sans-serif
+}
+
+h2 {
+    color:#fff;
+    font-size:45px;
+    font-weight:300
+}
+
+.btn-primary {
+    border-radius:0;
+    font-size:16px;
+    padding:12px 26px
+}
+
+.sign-up {
+    background:url(https://images.trvl-media.com/media/content/shared/images/travelguides/destination/180672/Yosemite-Valley-71721.jpg) no-repeat center center;
+    background-size:cover;
+    height:700px;
+}
+
