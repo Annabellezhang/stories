@@ -1,0 +1,27 @@
+    <div class="header">
+      <div class="container">
+        <h1>Share your travelling experience!</h1>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="container">
+        
+        <!-- Form goes here -->
+		<form accept-charset="UTF-8" action="/posts" class="new_post" id="new_post" method="post">
+			<div style="display:none">
+				<input name="utf8" type="hidden" value="&#x2713;" />
+				<input name="authenticity_token" type="hidden" value="95hZrAmh62bp0U1K0n0zQAzIqnXx+99ND9cR3Yw2Pdo=" />
+			</div>
+          	<input id="post_comment" name="post[comment]" placeholder="share your thoughts" type="text" />
+          	<input class="btn" name="commit" type="submit" value="post" />
+		</form>
+        
+        <ul class="comments">
+          <% @all_posts.each do |p| %>
+          <li><%= p.comment %></li>
+          <% end %>
+        </ul>
+
+      </div>
+    </div>
